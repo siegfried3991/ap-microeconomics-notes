@@ -1,19 +1,30 @@
-# AP Microeconomics: Imperfect Competition
+# MicroQuest · AP Microeconomics
 
-A self-contained study guide for AP Microeconomics Unit 4. Open **index.html** in a modern browser; no build step is required.
+A game-style study companion for Unit 4: Imperfect Competition.
 
-Includes monopoly and profit/loss, competition and welfare, natural-monopoly regulation, price discrimination, monopolistic competition, oligopoly, and game theory. There are interactive graphs, 20 flashcards, 20 original practice exercises with answers, a printable reference, and a local review planner.
+**Play:** https://siegfried3991.github.io/ap-microeconomics-notes/  
+**Complete original notes:** https://siegfried3991.github.io/ap-microeconomics-notes/notes.html
 
-All numerical graph models and practice questions are original illustrations. The burger payoff example is hypothetical. The notes link to College Board and OpenStax background resources. This is independent study material, not an official College Board publication.
+## Learn, review, then attempt AP
 
-## Local and offline use
+- Ten short lessons and 64 original challenges: market structures, monopoly, profit and loss, welfare, natural monopoly, price discrimination, monopolistic competition, oligopoly, game theory, and a mixed checkpoint.
+- Multiple choice, multiple selection, numerical calculations, graph reading, and ordering tasks. Immediate explanations; missed questions return until solved.
+- XP, daily goals, study streaks, and saved sessions. First correct answers and first lesson completions earn XP once. Review XP is limited to once per question per day.
+- Mistake repair, mixed practice, and spaced review after 1, 3, 7, 14, then 30 days. Concept bars count unique correct answers, not predicted AP scores.
+- Four authentic released AP free-response tasks: 2026 Q1, 2025 Set 1 Q3, 2024 Set 2 Q1, and 2023 Set 2 Q3. Open the official paper, write in an autosaving answer workspace, sketch on the graph pad, use a practice timer, and self-score using the official scoring guide.
 
-All math, graph code, and fonts are embedded in index.html. Progress and quiz marks use browser local storage; nothing is sent to a server. Use the print button to save as PDF, or download the HTML copy to study offline. Browser-local progress can differ between the local file and published website.
+Original drills are clearly distinguished from official exam questions. Official papers remain hosted by the College Board; they are linked or embedded, not rehosted. Brief scoring reminders are paraphrases and do not replace the official criteria. This independent project is not endorsed by the College Board.
 
-The Review & edit overlay edits a downloaded/local copy; it does not change the hosted repository.
+## Privacy and offline use
 
-## Third-party notices
+Progress and written answers stay in browser local storage. There are no accounts, analytics, or server submissions. Use the progress backup/restore tools to move between browsers. Clearing site data removes locally stored progress unless you keep a backup. A backup includes your written answers: keep it private.
 
-KaTeX 0.16.11 (MIT), D3 7.9.0 (ISC), DM Sans and Literata (SIL Open Font License), and HTML Explainer review-mode.js (MIT) are bundled. See THIRD-PARTY-NOTICES.txt. No external network access is needed to read or interact with the notes.
+Save `index.html` and `notes.html` in the same folder for offline learning. Fonts, math rendering, and game code are embedded; official PDFs require internet. A downloaded file and the hosted website have separate browser storage. The original notes retain their graphs, flashcards, original exercises, printable reference, and review planner.
 
-Created 25 October 2026.
+## Files
+
+`index.html` is the standalone game. `notes.html` is the full original guide. `game-source/` contains editable source files locally. The game is buildless once generated. The local builder uses embedded font and math assets prepared for this project.
+
+KaTeX 0.16.11 (MIT), D3 7.9.0 (ISC, in notes), DM Sans and Literata (SIL Open Font License), and the HTML Explainer review overlay (MIT, in notes) are included. See `THIRD-PARTY-NOTICES.txt`.
+
+Created and updated 25 October 2026.
