@@ -1,5 +1,7 @@
 # MicroQuest · AP Microeconomics
 
+**Account status:** connected to Supabase with email/password authentication and private, revisioned cloud progress. Signup is a limited pilot until custom SMTP is configured: Supabase's built-in mailer only reaches project team members. Email confirmation remains enabled. See `backend/SETUP.md`.
+
 A game-style study companion for Unit 4: Imperfect Competition.
 
 **Play:** https://siegfried3991.github.io/ap-microeconomics-notes/  
@@ -17,14 +19,14 @@ Original drills are clearly distinguished from official exam questions. Official
 
 ## Privacy and offline use
 
-Progress and written answers stay in browser local storage. There are no accounts, analytics, or server submissions. Use the progress backup/restore tools to move between browsers. Clearing site data removes locally stored progress unless you keep a backup. A backup includes your written answers: keep it private.
+Guest progress stays in local storage. Signed-in progress and AP drafts sync to a private per-user Supabase database row, with an offline account cache. Authentication sessions are stored by the Supabase SDK in local storage; learning backups never contain passwords or authentication tokens. No analytics are included. Use the progress backup/restore tools to move between browsers. Clearing site data removes locally stored progress unless you keep a backup. A backup includes your written answers: keep it private.
 
 Save `index.html` and `notes.html` in the same folder for offline learning. Fonts, math rendering, and game code are embedded; official PDFs require internet. A downloaded file and the hosted website have separate browser storage. The original notes retain their graphs, flashcards, original exercises, printable reference, and review planner.
 
 ## Files
 
-`index.html` is the standalone game. `notes.html` is the full original guide. `game-source/` contains editable source files locally. The game is buildless once generated. The local builder uses embedded font and math assets prepared for this project.
+`index.html` is the standalone game. `notes.html` is the full original guide. `game-source/` contains editable source files locally. The game is buildless once generated. Run `python3 game-source/build.py` to regenerate the page from its editable source and vendored assets. Run `node tests/cloud.test.cjs` for cloud state tests. `tests/build-preview.py` builds a clearly labeled mock account preview for local QA only; never publish `auth-preview.html`.
 
 KaTeX 0.16.11 (MIT), D3 7.9.0 (ISC, in notes), DM Sans and Literata (SIL Open Font License), and the HTML Explainer review overlay (MIT, in notes) are included. See `THIRD-PARTY-NOTICES.txt`.
 
-Created and updated 25 October 2026.
+Created 25 October 2026; account upgrade prepared 26 October 2026.
