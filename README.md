@@ -1,6 +1,6 @@
 # MicroQuest · AP Microeconomics
 
-**Account status:** connected to Supabase with email/password authentication and private, revisioned cloud progress. Signup is a limited pilot until custom SMTP is configured: Supabase's built-in mailer only reaches project team members. Email confirmation remains enabled. See `backend/SETUP.md`.
+**Account status:** open email/password registration with immediate sign-in; email confirmation is disabled at the owner’s request. Progress syncs to a private, revisioned cloud record. Password recovery by email remains unavailable until an email service is configured.
 
 A game-style study companion for Unit 4: Imperfect Competition.
 
