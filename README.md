@@ -34,6 +34,14 @@ Homework notes, choices, first attempts, review marks, dates, and last visited q
 
 Content lives in `game-source/homework/`: packet data, question-diagram crops, display module, CSS, and a source inventory. Future assignments get stable packet/question ids and separate dates. Catalog version 3 adds homework fields; the existing server guard rejects older clients attempting to replace an upgraded checkpoint.
 
+## Explain another way
+
+Each Homework explanation and checked practice question has an **Explain another way** button. The chooser offers simpler wording, steps, an example, or exam reasoning and keeps the original available for comparison. This covers 394 explanation contexts across the homework packet and six course units.
+
+The private OpenAI API connection is prepared but generation is **not active until its credential and live checks are complete**. A signed-in account is required. The planned allowance reserves two US cents per request, stopping at US$5 per UTC month for the whole site, with two requests per minute and twenty per 24 hours per account. Reusing an alternative in the same page session does not spend again; asking for a fresh version makes a new request. Alternatives are not saved in progress checkpoints.
+
+Only the selected question and its canonical study answer/explanation are sent to the AI service. Email, account identity, written working, passwords, and API keys are excluded. Generated text is labeled as AI and cannot change the answer key, score or first attempt. The API is separately billed; this implementation does not draw from a ChatGPT subscription. See OpenAI's [hosted-app plan eligibility](https://developers.openai.com/siwc/token-sharing-open-source) and [API authentication guidance](https://developers.openai.com/api/reference/overview).
+
 ## Accounts and progress
 
 Email/password registration opens an account immediately, without email confirmation, at the owner's request. Minimum password length is 12 characters. Password-recovery email is unavailable until an email service is connected.
