@@ -1,18 +1,22 @@
 # MicroQuest · Economics & Mathematics
 
-A shared learning site for six AP Microeconomics units and Precalculus sections 1.1–1.5. Play at [MicroQuest](https://siegfried3991.github.io/ap-microeconomics-notes/).
+A shared learning site for six AP Microeconomics units and Precalculus Chapters 1–3. Play at [MicroQuest](https://siegfried3991.github.io/ap-microeconomics-notes/).
 
 ## Mathematics · Precalculus
 
-Open [Mathematics](https://siegfried3991.github.io/ap-microeconomics-notes/#subject/mathematics), or choose Mathematics in the subject menu. This path follows **only textbook sections 1.1–1.5**, printed pp.88–152, of *Precalculus: Graphical, Numerical, Algebraic*, ninth global edition (Demana et al., Pearson, 2015).
+Open [Mathematics](https://siegfried3991.github.io/ap-microeconomics-notes/#subject/mathematics), or choose Mathematics in the subject menu. This path follows **textbook Chapters 1–3** (sections 1.1–1.7, 2.1–2.8, 3.1–3.6), printed pp.88–342, of *Precalculus: Graphical, Numerical, Algebraic*, ninth global edition (Demana et al., Pearson, 2015).
 
-The five sections contain **17 lessons and 102 original practice questions**, with worked examples, guided completion, saved working, teach-back prompts, immediate feedback, immutable first-attempt outcomes, and spaced/mixed review. The toolkit has all twelve basic function graphs with domain/range and value tables, a parameter slider, inverse reflection, 24 recall cards, five saved written challenges with self-check rubrics, connected concept navigation, a quick reference and a study planner. Written solutions are not automatically graded. Simple fractions are supported for numerical answers.
+Start at [Tests & study plan](https://siegfried3991.github.io/ap-microeconomics-notes/#tests). There are **21 section checks** of six questions and **three chapter checks** of 42, 48 and 36 questions. These use 126 seeded question templates spanning the textbook sections. Fresh attempts vary numerical parameters and option order; some conceptual questions recur. Students can edit answers and navigate freely before final submission, pause/resume across reloads, and save working. Hints and solutions appear only after submission; diagnostic scores do not award XP or modify lesson practice records.
+
+Wrong and unanswered questions both link to the exact lesson to revisit. Outstanding topic reminders persist until a later check answers every sampled item for that topic correctly. Opening a solution or finishing a lesson alone does not clear them. Reports show section-level results, preserve the latest 20 attempts, and label results as evidence on that sampled check rather than proof of full mastery. Signed-in checks use the existing private account checkpoint; guest checks remain in the browser. Catalog version 5 protects the expanded record against replacement by older open clients.
+
+The 21 sections contain **50 lessons and 234 original practice questions**, with worked examples, guided completion, saved working, teach-back prompts, immediate feedback, immutable first-attempt outcomes, and spaced/mixed review. The toolkit has all twelve basic function graphs with domain/range and value tables, a parameter slider, inverse reflection, 24 recall cards, five saved written challenges with self-check rubrics, connected concept navigation, a quick reference and a study planner. Written solutions are not automatically graded. Simple fractions are supported for numerical answers.
 
 The method adapts [IES recommendations](https://ies.ed.gov/ncee/wwc/PracticeGuide/1), [Taylor & Rohrer’s interleaving study](https://digitalcommons.usf.edu/psy_facpub/1760/) and [Emeny et al.’s mathematics-spacing study](https://files.eric.ed.gov/fulltext/ED611846.pdf): alternate examples with problems, retrieve and explain ideas, mix previously attempted problem types, and return after a delay. These are evidence-informed design choices; the specific course and chosen timing have not been experimentally validated.
 
 Maths and economics retain distinct lessons, sessions and question records in the same account. Subject-wide review stays inside the selected subject; XP and streaks remain site-wide. Version-4 checkpoints include written maths work, planner marks, hints used and first checked outcomes; the existing server version guard protects them from older clients. Refresh older tabs on other devices before continuing. The owner's textbook PDF is not published; all course notes, practice questions and plots are original.
 
-Maths content and methodology live locally in `game-source/mathematics/`. Build with the existing build script and validate using `node tests/mathematics.test.cjs` in addition to the existing suites.
+Maths content and methodology live locally in `game-source/mathematics/`. Build with the existing build script and validate using `node tests/mathematics.test.cjs` and `node tests/assessments.test.cjs` in addition to the existing suites.
 
 ## Coverage
 
