@@ -276,3 +276,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+Homework source attribution
+The AP Unit 4 Revision assignment is transcribed from 18 page images supplied by the site owner on 27 October 2026. The packet is headed Content Review for Microeconomics 4/6 and credits Aaron Girona and Yolaine Zhao. Its FRQs identify AP examination years. Question-diagram excerpts are retained for the supplied exercises; student names and handwritten responses are excluded. MicroQuest authored the study explanations and illustrative model graphs. These answers are not official College Board grades or scoring guides.

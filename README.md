@@ -24,6 +24,16 @@ Foundation paths give concise concepts, worked rules, and four original drills p
 - The four curated authentic AP workspaces currently cover Unit 4: 2026 Q1, 2025 Set 1 Q3, 2024 Set 2 Q1, and 2023 Set 2 Q3. Other units link to the official released-paper library and clearly identify that curated workspaces have not yet been added.
 - Original drills are not College Board exam questions. Official papers and scoring guides remain hosted by the College Board. Self-scoring is not an official or automated AP grade.
 
+## Homework
+
+Open [Homework](https://siegfried3991.github.io/ap-microeconomics-notes/#homework). The first assignment, **AP Unit 4 Revision**, contains all 10 FRQs (65 subparts) and 25 MCQs from the 18 images supplied on 27 October 2026. Its source date field is blank, so the library initially groups it by date added. A learner may set its homework date.
+
+The assignment reader keeps scrollable questions on the left and a searchable question index on the right; on phones the index moves above the questions. FRQ model answers open individual explanation bubbles, with model graphs for drawing questions. Each checked MCQ shows a sentence explaining every option. Checked choices lock until an explicit retry, and the first checked choice is retained.
+
+Homework notes, choices, first attempts, review marks, dates, and last visited question save with the learner's existing guest/account checkpoint and backups. This is a study record, not a submission to a teacher. The supplied questions are transcribed and attributed; student names and handwritten answers are excluded. Model explanations are MicroQuest guidance rather than official grades.
+
+Content lives in `game-source/homework/`: packet data, question-diagram crops, display module, CSS, and a source inventory. Future assignments get stable packet/question ids and separate dates. Catalog version 3 adds homework fields; the existing server guard rejects older clients attempting to replace an upgraded checkpoint.
+
 ## Accounts and progress
 
 Email/password registration opens an account immediately, without email confirmation, at the owner's request. Minimum password length is 12 characters. Password-recovery email is unavailable until an email service is connected.
