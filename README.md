@@ -1,6 +1,6 @@
-# MicroQuest · Economics & Mathematics
+# MicroQuest · AP Economics, Mathematics & Literature
 
-A shared learning site for six AP Microeconomics units and Precalculus Chapters 1–3. Play at [MicroQuest](https://siegfried3991.github.io/ap-microeconomics-notes/).
+A shared learning site for complete AP Microeconomics and AP Macroeconomics topic paths, Precalculus Chapters 1–3, and English Literature. Play at [MicroQuest](https://siegfried3991.github.io/ap-microeconomics-notes/).
 
 ## Mathematics · Precalculus
 
@@ -18,16 +18,18 @@ Maths and economics retain distinct lessons, sessions and question records in th
 
 Maths content and methodology live locally in `game-source/mathematics/`. Build with the existing build script and validate using `node tests/mathematics.test.cjs` and `node tests/assessments.test.cjs` in addition to the existing suites.
 
-## Coverage
+## Original Microeconomics lesson bank
+
+The original lesson/question identifiers and their saved progress remain available. The direct topic sets below add a simpler primary route.
 
 | Unit | Path | Lessons | Original challenges |
 | --- | --- | ---: | ---: |
-| 1. Basic Economic Concepts | Foundation | 6 | 24 |
-| 2. Supply and Demand | Foundation | 9 | 36 |
-| 3. Production, Cost, and the Perfect Competition Model | Foundation | 7 | 28 |
-| 4. Imperfect Competition | Extended | 10 | 64 |
-| 5. Factor Markets | Foundation | 8 | 32 |
-| 6. Market Failure and the Role of Government | Foundation | 5 | 20 |
+| 1. Basic Economic Concepts | Full topic path | 6 | 24 |
+| 2. Supply and Demand | Full topic path | 9 | 36 |
+| 3. Production, Cost, and the Perfect Competition Model | Full topic path | 7 | 28 |
+| 4. Imperfect Competition | Full topic path | 10 | 64 |
+| 5. Factor Markets | Full topic path | 8 | 32 |
+| 6. Market Failure and the Role of Government | Full topic path | 5 | 20 |
 | **Total** | | **45** | **204** |
 
 Foundation paths give concise concepts, worked rules, and four original drills per lesson. They are introductions and practice, not complete textbooks or certification of exam mastery. The [official course framework](https://apcentral.collegeboard.org/media/pdf/ap-microeconomics-course-and-exam-description.pdf) defines AP scope. The original [complete Unit 4 notes](https://siegfried3991.github.io/ap-microeconomics-notes/notes.html) remain available.
@@ -101,3 +103,18 @@ Scope was informed by the Quarter 1 Grade 9 Honors English Literature materials 
 Literature questions use stable `l1`–`l4` unit identifiers. Existing economics and mathematics content and identifiers are preserved. Checkpoint catalog version 7 adds bounded literature annotations, selected evidence, drafts, self-review, planner, model-assistance flags, and a practice timer. Account cleaning and backups retain every subject; old clients cannot replace an upgraded cloud checkpoint under the existing monotonic-version guard. Refresh older tabs after updating. XP/streaks span subjects; review stays in the selected subject. No new authentication settings or database permissions are needed.
 
 Build locally with `python3 game-source/build.py`; validate with `node tests/literature.test.cjs` and the existing suites. The local reporting-service source and generated catalog are updated for version 7, including literature practice summaries without private writing. This frontend release does not deploy that separate reporting endpoint. Publication consists of the generated standalone page, public documentation, and original literature module sources; local account configuration and source class materials are excluded.
+
+
+## AP Economics: direct topic practice
+
+Open [AP Microeconomics](https://siegfried3991.github.io/ap-microeconomics-notes/#subject/microeconomics) or [AP Macroeconomics](https://siegfried3991.github.io/ap-microeconomics-notes/#subject/macroeconomics). Each topic is one button that opens a question immediately. No introductory lesson completion or separate diagnostic dashboard is required.
+
+All six units of each AP syllabus are represented: 45 Microeconomics learning topics cover the framework's 36 topic codes, and 42 Macroeconomics topics follow its 42 codes. Each topic has original teaching notes, worked examples or reasoning guidance, 5–7 question steps, and official framework/released-paper links. The current topic sets contain 299 Microeconomics and 210 Macroeconomics steps. These are original AP-style activities, not reproduced official exam items. Related genuine released FRQs and scoring guides open on College Board's site.
+
+There are two answer-tile tasks in each topic (174 activities). Students tap chunks into an explanation, undo/remove them, or assemble calculation working with its final result last. Independent working pieces may be placed in either order. Numerical tasks accept typed answers, fractions, scientific notation, or the number pad. An “I'm not sure” action records a miss and shows the model explanation instead of forcing a guess.
+
+Graph work is embedded where relevant. The 25 graph views include both courses' PPC/market versions and new AD–AS, money-market, reserve-market, loanable-funds, Phillips-curve, exchange-rate, growth, business-cycle, bond-price and inflation views. Graph conditions change between attempts. The current Macroeconomics framework's limited- versus ample-reserves distinction is explicit; the simple deposit multiplier is labelled as a constrained teaching model.
+
+First checked answers lock per attempt. Misses and notes-assisted answers prompt review; an independent pass becomes due for a retention check after three days. A small practice set is evidence about sampled questions, not an AP grade or certification of mastery. Conceptual and numerical prompts may recur on retries; answer ordering and graph conditions vary. The latest six topic attempts and each unfinished topic are saved through the existing private browser/account checkpoint, without deleting old mastery, homework, Mathematics or Literature records. Catalog version 8 protects these fields against older clients; refresh older open tabs.
+
+Validation includes `tests/topics.test.cjs`, all previous curriculum/cloud/homework/tutor/mathematics/assessment/literature/economics suites, public configuration checks, and browser checks for one-press entry, tile construction, keypad answers, skips, reload/results restoration, and 320/390-pixel layouts. The prepared reporting API also understands the new topic evidence; it remains undeployed pending Supabase activation.
