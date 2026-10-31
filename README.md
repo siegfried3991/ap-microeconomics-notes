@@ -118,3 +118,12 @@ Graph work is embedded where relevant. The 25 graph views include both courses' 
 First checked answers lock per attempt. Misses and notes-assisted answers prompt review; an independent pass becomes due for a retention check after three days. A small practice set is evidence about sampled questions, not an AP grade or certification of mastery. Conceptual and numerical prompts may recur on retries; answer ordering and graph conditions vary. The latest six topic attempts and each unfinished topic are saved through the existing private browser/account checkpoint, without deleting old mastery, homework, Mathematics or Literature records. Catalog version 8 protects these fields against older clients; refresh older open tabs.
 
 Validation includes `tests/topics.test.cjs`, all previous curriculum/cloud/homework/tutor/mathematics/assessment/literature/economics suites, public configuration checks, and browser checks for one-press entry, tile construction, keypad answers, skips, reload/results restoration, and 320/390-pixel layouts. The prepared reporting API also understands the new topic evidence; it remains undeployed pending Supabase activation.
+
+
+## Extra lessons
+
+Open [Extra lessons](https://siegfried3991.github.io/ap-microeconomics-notes/#extra-lessons) for dated lesson records. The 31 October Unit 4 outline includes six graph workspaces, reported progress for 25 numbered MCQs and two FRQs, and a study-guide checklist. Each graph has a private sketch, labels, model comparison and self-review criteria.
+
+A separate twelve-question original AP-style challenge uses linked graphs, five-option comparisons and a subsidy that changes a payoff-matrix equilibrium. First submitted answers lock; help use stays separate from independent performance; fresh versions change numerical information. The Reference level tab records the standard for future imperfect-competition questions. It is a practice sample, not an official AP score or a claim that all older questions have been rewritten.
+
+Personal lesson labels, notes, marked-work observations and drawings are optional account checkpoint data under catalog version 9. They are excluded from the public course bundle. Import a private MicroQuest lesson-record JSON through the lesson page, or record a later lesson directly. Guest records stay in that browser; signed-in records use the existing private cloud save. Raw lesson photos are not uploaded by this feature.

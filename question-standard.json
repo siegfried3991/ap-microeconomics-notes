@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "reference": "User-supplied Unit 4 lesson material dated 2026-10-31",
+  "scope": "Future imperfect-competition assessments; adapt graph/table proportion to other units rather than mechanically applying it.",
+  "requirements": {
+    "independent_first": true,
+    "graph_or_payoff_table_share_minimum": 0.4,
+    "include_shared_stimulus_set": true,
+    "include_policy_or_cost_change": true,
+    "include_before_after_outcome_comparison": true,
+    "choice_options_when_plausible": 5,
+    "explain_every_choice": true,
+    "record_optional_help": true,
+    "preserve_first_response": true,
+    "change_context_or_numbers_on_retest": true,
+    "separate_completion_self_review_and_objective_score": true,
+    "do_not_claim_official_exam_provenance_without_primary_source": true
+  },
+  "misconceptions": [
+    "MR = MC selects output; demand selects price.",
+    "Zero economic profit does not imply allocative or productive efficiency.",
+    "Natural monopoly is defined by relevant-range cost economies, not merely by ownership or a patent.",
+    "Fair-return P = ATC and efficient P = MC are different targets.",
+    "A subsidy can change a rival action and reduce the recipient equilibrium profit."
+  ],
+  "original_exemplar": "game-source/extra-lessons/data.js"
+}
