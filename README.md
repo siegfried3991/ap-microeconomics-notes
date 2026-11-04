@@ -127,3 +127,13 @@ Open [Extra lessons](https://siegfried3991.github.io/ap-microeconomics-notes/#ex
 A separate twelve-question original AP-style challenge uses linked graphs, five-option comparisons and a subsidy that changes a payoff-matrix equilibrium. First submitted answers lock; help use stays separate from independent performance; fresh versions change numerical information. The Reference level tab records the standard for future imperfect-competition questions. It is a practice sample, not an official AP score or a claim that all older questions have been rewritten.
 
 Personal lesson labels, notes, marked-work observations and drawings are optional account checkpoint data under catalog version 9. They are excluded from the public course bundle. Import a private MicroQuest lesson-record JSON through the lesson page, or record a later lesson directly. Guest records stay in that browser; signed-in records use the existing private cloud save. Raw lesson photos are not uploaded by this feature.
+
+
+## Assigned reading lab
+
+Open [the Reading Lab](https://siegfried3991.github.io/ap-microeconomics-notes/reading-lab/), also linked from the English Literature hub.
+
+- **He—y, Come on Ou—t!**, credited to Shinichi Hoshi and translator Stanleigh Jones: 45 original story paragraphs, a plain-English meaning and explanation of significance for every paragraph, 90 anchored notes on literary devices and narrative choices, 45 paragraph-recall tasks, 90 device/effect cards, and 24 original analytical MCQs. The final call and pebble are distinguished from the implied later consequences. The worksheet date is not claimed as the verified original-publication date.
+- **Exhortation**, credited to George Saunders: the complete reading, a colour matched right-margin annotation viewer, 110 original analytical questions with illustrations and explanatory feedback, and a marked-up Word study copy.
+
+These assigned-reading transcriptions were prepared from user-supplied pages. Original authors and translators retain their rights. Worksheet scans, student identifiers and handwritten marginalia are excluded. Teaching commentary and questions are independent learning aids. The reading labs save practice separately in browser storage; they do not change the main MicroQuest cloud checkpoint. Recall confidence is self-reported and written responses are not automatically graded.
